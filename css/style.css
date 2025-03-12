@@ -1,0 +1,153 @@
+body {
+    margin: 0px;
+    background-color: #E7E6E6;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.navbar {
+    top: 0;
+    position: fixed;
+    background-color: #252133;
+    display: flex;
+    align-items: center;
+    padding: 14px 17px;
+    width: 100%;
+
+}
+
+.navbar .titulo {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 2.1vh;
+    font-weight: 600;
+    font-style: italic;
+    padding: 0px 28px;
+}
+
+.navbar .enlace {
+    padding: 0 170px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 1.7vh;
+}
+
+.content {
+    font-family: 'Inter', sans-serif;
+    margin-top: 14vh;
+    margin-bottom: 14vh;
+    margin-left: 12vh;
+    margin-right: 12vh;
+}
+
+.content h2 {
+    margin-bottom: 7vh;
+}
+
+.content .texto {
+    font-size: 2.1vh;
+}
+
+.first-content {
+    margin-top: 21vh;
+}
+
+.content img {
+    width: 21vh;
+    height: 21vh;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+.content li {
+
+    font-size: 2.5vh;
+    margin-bottom: 3vh;
+}
+
+.content .imagenes {
+    margin-left: 14vh;
+    margin-right: 14vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1vh;
+}
+
+.content .imagenes img {
+    width: 10vh;
+    height: 10vh;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+footer {
+    background-color: #252133;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+
+}
+
+footer p {
+
+    margin: 0 7vh;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 1.7vh;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+th,
+td {
+    padding: 7vh 14vh;
+}
+
+
+
+td .imagen-tabla {
+    width: 14vh;
+    height: 14vh;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+.content-boxes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 7vh;
+    grid-row-gap: 7vh;
+}
+
+.box {
+
+    border-radius: 28px;
+    background-color: #DEDEDE;
+}
+
+.box h2 {
+    margin-top: 3.5vh;
+    margin-left: 3.5vh;
+}
+
+.box li {
+    margin-left: 2.7vh;
+}
+
+.video {
+    text-align: center;
+}
